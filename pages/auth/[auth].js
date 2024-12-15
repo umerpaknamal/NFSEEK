@@ -141,7 +141,7 @@ const Auth = (props) => {
                             <>
                                 {!isVerify ? 
                                     <>
-                                        <h3>Let’s Started with <span>PixaURL.</span></h3>
+                                        <h3>Let’s Started with <span>PaxURL.</span></h3>
                                         <p>Connect and manage all your social links at one place</p>
                                         <div className={styles.auth_input_wrapper}>
                                             <input type="text" className={styles.auth_input} placeholder="Enter Name" name="name" value={name} onChange={(e) => setName(e.target.value)} />
