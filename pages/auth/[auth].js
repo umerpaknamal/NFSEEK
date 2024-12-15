@@ -184,7 +184,7 @@ const Auth = (props) => {
                             :
 
                             <>
-                                <h3>Welcome Back to <span>PixaURL</span></h3>
+                                <h3>Welcome Back to <span>PaxURL</span></h3>
                                 <p>Connect and manage all your social links at one place</p>
                                 <div className={styles.auth_input_wrapper}>
                                     <input type="text" className={styles.auth_input} placeholder="Your Email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
