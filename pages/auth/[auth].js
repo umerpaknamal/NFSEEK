@@ -59,11 +59,11 @@ const Auth = (props) => {
 
     let authTitle = '';
     if(authType === 'login'){
-        authTitle = 'PixaURL - Login'
+        authTitle = 'PaxURL - Login'
     }else if(authType === 'registration'){
-        authTitle = 'PixaURL - SignUp'
+        authTitle = 'PaxURL - SignUp'
     }else if(authType === 'forgot-password'){
-        authTitle = 'PixaURL - Forgot Password'
+        authTitle = 'PaxURL - Forgot Password'
     }
 
     /* show/hide password start */
