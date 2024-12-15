@@ -42,6 +42,10 @@ const Users = () => {
 
     const [otoName, setOtoName] = useState([]);
 
+    const [qrId, setQrId] = useState('');
+    const [qrImage, setQrImage] = useState('');
+    const [qrUrl, setQrUrl] = useState('');
+
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
@@ -269,32 +273,40 @@ const Users = () => {
         const emptyname = validator.isEmpty(name, {ignore_whitespace:true});
         const emptyemail = validator.isEmpty(email, {ignore_whitespace:true});
         const emptypassword = validator.isEmpty(password, {ignore_whitespace:true});
+        const emptyqrId = validator.isEmpty(qrId, {ignore_whitespace:true});
+        const emptyqrImage = validator.isEmpty(qrImage, {ignore_whitespace:true});
+        const emptyqrUrl = validator.isEmpty(qrUrl, {ignore_whitespace:true});
+        
         const isemail = validator.isEmail(email);
-        const passlength = validator.isLength(password, {min:5, max:15})
-        if(emptyname || emptyemail || (emptypassword && !isEdit)){
+        const passlength = validator.isLength(password, {min:5, max:15});
+        
+        if(emptyname || emptyemail || (emptypassword && !isEdit) || emptyqrId || emptyqrImage || emptyqrUrl){
             AlertMsg('error', 'Oops!', 'Field can not be empty!');
             return false;
-        }else if(!isemail){
+        } else if(!isemail){
             AlertMsg('error', 'Oops!', 'Email Is not valid!');
             return false;
-        }else if(!passlength && !isEdit || !passlength && password){
+        } else if(!passlength && !isEdit || !passlength && password){
             AlertMsg('error', 'Oops!', 'Password should be between 5 to 15 characters.');
             return false;
-        }else{
+        } else {
             const data = {
-                name : name,
-                email : email,
-                password : password
-            }
+                name: name,
+                email: email,
+                password: password,
+                qrId: qrId,
+                qrImage: qrImage,
+                qrUrl: qrUrl
+            };
             if(isEdit === true){
                 data.id = editId;
                 if(password === '') delete data.password;
             }
             Loading(true);
             common.getAPI({
-                method : 'POST',
-                url : 'admin/updateUser',
-                data : data
+                method: 'POST',
+                url: 'admin/updateUser',
+                data: data
             }, (resp) => {
                 if(resp.status === "success"){
                     userPopupCloseHandler();
@@ -302,9 +314,12 @@ const Users = () => {
                     setName('');
                     setEmail('');
                     setPassword('');
+                    setQrId('');
+                    setQrImage('');
+                    setQrUrl('');
                     fetchUsers(1);
                 }
-            })
+            });
         }
     }
     /* add user end */
@@ -331,14 +346,16 @@ const Users = () => {
     const getEditedData = (e, id) => {
         e.preventDefault();
 
-        const newUserList = [...userList];
-        var user = newUserList.find((user => user._id == id));
-        if(user){
+        const user = userList.find(user => user._id === id);
+        if (user) {
             manageIsEdit(true);
-            setEditId(user._id)
+            setEditId(user._id);
             setName(user.name);
             setEmail(user.email);
             setAddUserPopup(true);
+        } else {
+            console.error(`User with id ${id} not found.`);
+            AlertMsg('error', 'Oops!', 'User not found.');
         }
     };
     /* edit user end */
@@ -473,30 +490,18 @@ const Users = () => {
                         
                         : null}
                     </div>
-                    {/* <div className="pu_input_wrapper">
-                        <label>Select OTO</label>
-                        <div className="pu_mui_select">
-                            <FormControl fullWidth>
-                                <Select
-                                    multiple
-                                    value={otoName}
-                                    onChange={handleOtoChange}
-                                    renderValue={(selected) => (
-                                        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
-                                        {selected.map((value) => (
-                                            <Chip key={value} label={value} />
-                                        ))}
-                                        </Box>
-                                    )}
-                                >
-                                    {otoname.map((name) => (
-                                        <MenuItem key={name} value={name}> {name} </MenuItem>
-                                    ))}
-                                </Select>
-                            </FormControl>
-                        </div>
-                    </div> */}
-                    
+                    <div className="pu_input_wrapper">
+                        <label>QR ID</label>
+                        <input type="text" className="pu_input" value={qrId} onChange={(e) => setQrId(e.target.value)} />
+                    </div>
+                    <div className="pu_input_wrapper">
+                        <label>QR Image</label>
+                        <input type="text" className="pu_input" value={qrImage} onChange={(e) => setQrImage(e.target.value)} />
+                    </div>
+                    <div className="pu_input_wrapper">
+                        <label>QR URL</label>
+                        <input type="text" className="pu_input" value={qrUrl} onChange={(e) => setQrUrl(e.target.value)} />
+                    </div>
                     <div className="text-center">
                         <button type="submit" className="pu_btn">{isEdit ? 'Update' : 'Add User'}</button>
                     </div>

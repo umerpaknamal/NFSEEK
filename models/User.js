@@ -17,6 +17,9 @@ const userSchema = new Schema(
 		validityDate: Date,
 		planName: String,
 		status: { type: Number, default: 0 },
+		qrId: String, // New field for QR ID
+		qrImage: String, // New field for QR Image
+		qrUrl: String, // New field for QR URL
 	},
 	{
 		timestamps: true,

@@ -9,7 +9,7 @@
     margin: 0;
     margin-bottom: 30px;
     text-align: center;
-    font-size: 18px;
+    fontSize: 18px;
 }
 .wrapper > h3 svg{
     margin-left: 10px;

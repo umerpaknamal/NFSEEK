@@ -31,7 +31,7 @@
 }
 .header_nav ul > li > a{
     display: block;
-    font-size: 14px;
+    fontSize: 14px;
     color: var(--color-body);
     padding: 8px 30px;
     border-radius: 50px;
@@ -135,7 +135,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-size: 14px;
+    fontSize: 14px;
     text-transform: uppercase;
     font-weight: 600;
     padding-top: 2px;    
@@ -185,11 +185,11 @@
 }
 .profile_dropdown_details > h3{
     margin: 0;
-    font-size: 15px;
+    fontSize: 15px;
 }
 .profile_dropdown_details > p{
     margin: 0;
-    font-size: 13px;
+    fontSize: 13px;
     
 }
 .profile_dropdown > ul{
@@ -220,7 +220,7 @@
     gap: 5px;
     cursor: pointer;
     color: var(--main-color);
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 600;
     line-height: 11px;
 }
@@ -238,7 +238,7 @@
     flex: 1;
 }
 .editor_title > p{
-    font-size: 20px;
+    fontSize: 20px;
     margin: 0;
 }
 .editor_header_right .pu_btn{
@@ -316,6 +316,6 @@
         display: none;
     }
     .editor_title > p{
-        font-size: 16px;
+        fontSize: 16px;
     }
 }

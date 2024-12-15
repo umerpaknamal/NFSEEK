@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-size: 22px;
+    fontSize: 22px;
     font-weight: 300;
     padding-top: 3px;
     text-transform: uppercase;
@@ -35,11 +35,11 @@
 }
 .name{
     text-align: center;
-    font-size: 25px;
+    fontSize: 25px;
     font-weight: 900;
 }
 .tagline{
-    font-size: 16px;
+    fontSize: 16px;
 }
 /* social icon list start */
 .social_icon_list{
@@ -103,10 +103,10 @@
     background-color: #f6faff;
 }
 .editor_wrapper.html_theme_t1 .profile_details .name {
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t1 .profile_details .tagline {
-    font-size: 14px;
+    fontSize: 14px;
 }
 /* theme 1 end */
 /* theme 2 start */
@@ -150,10 +150,10 @@
     margin-top: -80px;
 }
 .editor_wrapper.html_theme_t2 .profile_details .name {
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t2 .profile_details .tagline {
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t2 .avatar > img,
 .editor_wrapper.html_theme_t2 .avatar > .avatar_initial{
@@ -196,10 +196,10 @@
     padding: 40px 0 10px;
 }
 .editor_wrapper.html_theme_t3 .profile_details .name {
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t3 .profile_details .tagline {
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t3 .avatar > img,
 .editor_wrapper.html_theme_t3 .avatar > .avatar_initial{
@@ -261,7 +261,7 @@
     filter: drop-shadow(0px 8px 25px rgba(56,56,56,0.06));
 }
 .editor_wrapper.html_theme_t4 .profile_details .tagline {
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t4 .profile_bg{
     padding: 50px 10px 50px;
@@ -271,10 +271,10 @@
     padding: 0;
 }
 .editor_wrapper.html_theme_t4 .name {
-   font-size: 18px;
+   fontSize: 18px;
 }
 .editor_wrapper.html_theme_t4 .tagline {
-    font-size: 14px;
+    fontSize: 14px;
  }
 .editor_wrapper.html_theme_t4 .avatar > .avatar_initial{
     width: 80px;
@@ -531,11 +531,11 @@
 }
 .editor_wrapper.html_theme_t7 .name {
     text-align: left;
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t7 .tagline {
     text-align: left;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t7 .profile_headings {
     z-index: 9;
@@ -603,10 +603,10 @@
     margin-top: 30px;
 }
 .editor_wrapper.html_theme_t8 .name {
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wra pper.html_theme_t8 .tagline {
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t8 .avatar > .avatar_initial{
     width: 100px;
@@ -687,7 +687,7 @@
 }
 .editor_wrapper.html_theme_t9 .name {
     text-align: left;
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t9 .box_main_flx {
     grid-template-columns: 80px auto;
@@ -703,7 +703,7 @@
     margin-bottom: 0;
 }
 .editor_wrapper.html_theme_t9 .tagline {
-   font-size: 14px;
+   fontSize: 14px;
 }
 .editor_wrapper.html_theme_t9 .social_icon_list{
     width: auto;
@@ -789,7 +789,7 @@
 }
 .editor_wrapper.html_theme_t10 .name {
       text-align: left;
-      font-size: 18px;
+      fontSize: 18px;
 }
 .editor_wrapper.html_theme_t10 .box_main_flx {
     grid-gap: 10px;
@@ -805,7 +805,7 @@
     margin-bottom: 0;
 }
 .editor_wrapper.html_theme_t10 .tagline {
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t10 .box_main_flx {
     border-radius: 0 0 25px 25px;
@@ -911,10 +911,10 @@
     padding: 15px;
 }
 .editor_wrapper.html_theme_t11 .name{
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t11 .tagline{
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t11 .box_left_content{
     padding-top: 50px;    
@@ -1034,7 +1034,7 @@
 }
 .editor_wrapper.html_theme_t12 .name {
     text-align: left;
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t12 .box_main_flx {
     grid-template-columns: 80px auto;
@@ -1058,7 +1058,7 @@
     margin-bottom: 0;
 }
 .editor_wrapper.html_theme_t12 .tagline {
-     font-size: 14px;
+     fontSize: 14px;
 }
 .editor_wrapper.html_theme_t12 .avatar > .avatar_initial{
     width: 80px;
@@ -1158,10 +1158,10 @@
     padding: 10px;
 }
 .editor_wrapper.html_theme_t13 .name{
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t13 .tagline{
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t13 .box_left_content{
     padding-top: 50px;    
@@ -1279,7 +1279,7 @@
     border-radius: 10px 0 0 10px;
 }
 .html_theme_t14 .socialicons_heading {
-    font-size: 20px;
+    fontSize: 20px;
     line-height: 26px;
     color: #1c153f;
     font-weight: 700;
@@ -1309,7 +1309,7 @@
 .editor_wrapper.html_theme_t14 .name {
     text-align: left;
     width: 100%;
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t14 .box_main_flx {
     grid-gap: 10px;
@@ -1332,7 +1332,7 @@
     margin-bottom: 0;
 }
 .editor_wrapper.html_theme_t14 .tagline {
-     font-size: 14px;
+     fontSize: 14px;
      width: 100%;
 }
 .editor_wrapper.html_theme_t14 .avatar > .avatar_initial{
@@ -1340,7 +1340,7 @@
     height: 130px;
 }
 .editor_wrapper.html_theme_t14 .socialicons_heading {
-    font-size: 16px;
+    fontSize: 16px;
     margin: 0 0 10px;
 }
 .editor_wrapper.html_theme_t14 .avatar > img{
@@ -1413,10 +1413,10 @@
     padding: 0;
 }
 .editor_wrapper.html_theme_t15 .name {
-    font-size: 16px;
+    fontSize: 16px;
 }
 .editor_wrapper.html_theme_t15 .tagline {
-   font-size: 14px;
+   fontSize: 14px;
 }
 .editor_wrapper.html_theme_t15 .profile_bg {
     height: 130px;
@@ -1486,7 +1486,7 @@
 }
 .editor_wrapper.html_theme_t16 .name {
     text-align: left;
-    font-size: 18px;
+    fontSize: 18px;
 }
 .editor_wrapper.html_theme_t16 .box_main_flx {
     grid-template-columns: 80px auto;
@@ -1509,7 +1509,7 @@
     margin-bottom: 0;
 }
 .editor_wrapper.html_theme_t16 .tagline {
-     font-size: 14px;
+     fontSize: 14px;
 }
 .editor_wrapper.html_theme_t16 .avatar > img{
     width: 80px;
@@ -1615,7 +1615,7 @@
     margin-top: 20px
 }
 .html_theme_t18 .tagline {
-    font-size: 20px;
+    fontSize: 20px;
     padding: 15px;
     display: inline-block;
     background-color: #fff;
@@ -1651,11 +1651,11 @@
     padding:5px;
 } 
 .editor_wrapper.html_theme_t18 .name {
-    font-size: 16px;
+    fontSize: 16px;
     margin: 10px 0 10px;
 }
 .editor_wrapper.html_theme_t18 .tagline {
-    font-size: 14px;
+    fontSize: 14px;
     padding: 10px;
 }
 .html_theme_t18 .social_icon_list {
@@ -1798,11 +1798,11 @@
     height: 100px;
 } 
 .editor_wrapper.html_theme_t20 .name {
-    font-size: 16px;
+    fontSize: 16px;
     margin: 0 0 10px;
 }
 .editor_wrapper.html_theme_t20 .tagline {
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_wrapper.html_theme_t20 .social_icon_list {
     padding: 10px;

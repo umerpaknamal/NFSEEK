@@ -18,8 +18,8 @@ const Profile = (props) => {
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
-            pageHeading: "PixaURL - Profile",
-            title: "PixaURL - Profile",
+            pageHeading: "PaxURL - Profile",
+            title: "PaxURL - Profile",
         }));
     }, [dispatch]);
 

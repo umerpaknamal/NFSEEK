@@ -1,0 +1,69 @@
+.qrcode_item {
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0px 12px 26px 0px rgba(177, 193, 224, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 72px 1fr auto;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.qrcode_image > img {
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+}
+
+.qrcode_avatar_initials {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--main-color);
+    border-radius: 8px;
+    background-color: rgba(var(--main-color-rgb), 0.08);
+    color: var(--main-color);
+    fontSize: 22px;
+}
+
+.qrcode_details > h3 {
+    margin: 0;
+    fontSize: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.qrcode_details > p {
+    margin: 0;
+    fontSize: 14px;
+}
+
+.qrcode_analytics > .qrcode_analytics_item {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    position: relative;
+    margin-right: 15px;
+    fontSize: 12px;
+    font-weight: 500;
+    height: 15px;
+    line-height: 15px;
+}
+
+.qrcode_analytics > .qrcode_analytics_item > svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}
+
+.qrcode_analytics > .qrcode_analytics_item > span {
+    margin-left: 2px;
+}
+
+.qrcode_analytics > .qrcode_analytics_item:last-child {
+    margin-bottom: 0px;
+} 

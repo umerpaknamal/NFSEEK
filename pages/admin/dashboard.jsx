@@ -75,13 +75,13 @@ const Dashboard = () => {
                     </div>
                     <div className="pu_awb_details">
                         <h3>{linkCount}</h3>
-                        <p>All Created Links</p>
+                        <p>Total Profiles Created </p>
                     </div>
                 </div>
             </div>
 
             <div className="pu_pagetitle_wrapper">
-                <h3>All Links ({linkCount})</h3>
+                <h3>All Profiles ({linkCount})</h3>
             </div>
             <LinkList setLinkCount={setLinkCount} />
 

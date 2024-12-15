@@ -26,18 +26,18 @@
     border-radius: 8px;
     background-color: rgba(var(--main-color-rgb), 0.08);
     color: var(--main-color);
-    font-size: 22px;
+    fontSize: 22px;
 }
 
 .linklist_details > h3{
     margin: 0;
-    font-size: 16px;
+    fontSize: 16px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 .linklist_details > p{
     margin: 0;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .linklist_details > p > span{
     margin-left: 5px;
@@ -55,7 +55,7 @@
     align-items: center;
     position: relative;
     margin-right: 15px;
-    font-size: 12px;
+    fontSize: 12px;
     font-weight: 500;
     height: 15px;
     line-height: 15px;
@@ -134,7 +134,7 @@
     .linklist_image > img{
         width: 52px;
         height: 52px;
-        font-size: 18px;
+        fontSize: 18px;
     }
     .linklist_action{
         flex: 1;
@@ -146,10 +146,10 @@
         flex: 1;
     }
     .linklist_details > h3{
-        font-size: 14px;
+        fontSize: 14px;
     }
     .linklist_details > p{
-        font-size: 12px;
+        fontSize: 12px;
     }
     
 }

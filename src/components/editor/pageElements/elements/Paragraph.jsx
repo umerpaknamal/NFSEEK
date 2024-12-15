@@ -24,7 +24,7 @@ const Paragraph = (props) => {
                 {/* <textarea rows="5" id={'el_' + props.data._id} className="pu_input" value={pragraph} onChange={(e) => setPragraph(e.target.value)} onBlur={(e) => updateParagraph(e)}></textarea> */}
 
                 <Editor
-                    apiKey= {process.env.tinymce_key}
+                    apiKey= 'erwe9n8b9g048qhtbe2shmzooa5b3tjzbqthi973e7kfxjy7'
                     onInit={(evt, editor) => editorRef.current = editor}
                     onEditorChange={(newText) => setPragraph(newText)}
                     onBlur={(e) => updateParagraph(e)}
@@ -35,7 +35,7 @@ const Paragraph = (props) => {
                     plugins: [
                         'advlist', 'lists'],
                     toolbar: 'bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | ',
-                    content_style: 'body { font-family: Poppins, sans-serif; font-size:14px }'
+                    content_style: 'body { font-family: Poppins, sans-serif; fontSize:14px }'
                     }}
                 />
 

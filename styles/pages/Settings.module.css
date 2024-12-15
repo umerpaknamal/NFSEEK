@@ -25,7 +25,7 @@
     justify-content: center;
     gap: 10px;
     color: var(--main-color);
-    font-size: 18px;
+    fontSize: 18px;
     font-weight: 400;
 }
 .custom_theme.active{
@@ -188,7 +188,7 @@
 }
 .seo_pagelist_wrapper > h3{
     margin: 0;
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -230,7 +230,7 @@
 .template_item > p{
     margin: 0;
     text-align: center;
-    font-size: 13px;
+    fontSize: 13px;
     font-weight: 500;
 }
 .template_checked{
@@ -328,7 +328,7 @@
     background-color: #ffffff;
     padding: 0 15px;
     color: var(--color-body);
-    font-size: 13px;
+    fontSize: 13px;
     font-weight: 600;
     outline: none;
 }

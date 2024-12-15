@@ -14,7 +14,7 @@
     position: relative;
     z-index: 1;
     text-align: center;
-    font-size: 15px;
+    fontSize: 15px;
     font-weight: 500;
     cursor: pointer;
 }
@@ -40,7 +40,7 @@
     border-radius: 50px;
     padding: 15px;
     text-align: center;
-    font-size: 16px;
+    fontSize: 16px;
     grid-template-columns: 1fr auto;
     align-items: center;
     justify-content: center;
@@ -67,7 +67,7 @@
 }
 .editor_link.themes_1.link_wrapper a {
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_link.themes_1.link_wrapper {
     margin-bottom: 15px;
@@ -78,7 +78,7 @@
     margin-bottom: 15px;
 }
 .themes_2.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     border-radius: 8px;
     background: #fff;
     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
@@ -86,7 +86,7 @@
 }
 .editor_link.themes_2.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     border-radius: 6px;
 }
 /* theme 2 end */
@@ -96,14 +96,14 @@
     position: relative;
 }
 .themes_3.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     border-radius: 12px;
     border: 1px solid #fff;
     padding: 15px 15px;
 }
 .editor_link.themes_3.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     border-radius: 6px;
 }
 /* theme 3 end */
@@ -114,7 +114,7 @@
     position: relative;
 }
 .themes_4.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     border-radius: 10px;
     padding: 15px 10px;
 }
@@ -129,7 +129,7 @@
 }
 .editor_link.themes_4.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     border-radius: 6px;
 }
 /* theme 4 end */
@@ -140,7 +140,7 @@
     position: relative;
 }
 .themes_5.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     border-radius: 5px;
     padding: 18px 15px;
 }
@@ -154,7 +154,7 @@
 }
 .editor_link.themes_5.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     border-radius: 6px;
 }
 /* theme 5 end */
@@ -165,7 +165,7 @@
     padding: 0px 3px;
 }
 .themes_6.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     border-radius: 6px;
     padding: 18px 15px;
     background-color:rgba(255, 255, 255, 0.06);
@@ -183,7 +183,7 @@
 }
 .editor_link.themes_6.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     border-radius: 6px;
 }
 /* theme 6 end */
@@ -194,7 +194,7 @@
     padding: 0px;
 }
 .themes_7.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     border-radius: 0;
     padding: 12px 15px;
     display: grid;
@@ -208,7 +208,7 @@
 }
 .editor_link.themes_7.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     border-radius: 0;
 }
 .editor_link.themes_7.link_wrapper a .svg__icons {
@@ -222,7 +222,7 @@
     padding: 0px 20px;
 }
 .themes_8.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     border-radius: 10px;
     padding: 5px 15px 5px 5px;
     box-shadow: 0px 6px 9.4px 0.6px rgb(136 45 199 / 10%);
@@ -245,7 +245,7 @@
     padding: 0px 15px;
 }
 .editor_link.themes_8.link_wrapper a{
-    font-size: 14px;
+    fontSize: 14px;
 }
 .themes_8.link_wrapper a {
   text-align: left;
@@ -262,7 +262,7 @@
     padding: 0px 10px;
 }
 .themes_9.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     text-align: left;
     border-radius: 0;
     padding: 10px 15px;
@@ -295,7 +295,7 @@
 }
 .editor_link.themes_9.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     border-radius: 0;
     gap: 5px;
 }
@@ -312,7 +312,7 @@
     background-color: #fff;
 }
 .themes_10.link_wrapper a{
-    font-size: 14px;
+    fontSize: 14px;
     text-align: left;
     padding: 10px 20px;
     z-index: 1;
@@ -329,7 +329,7 @@
     grid-template-columns: 1fr auto;
     align-items: center;
     padding: 10px;
-    font-size: 16px;
+    fontSize: 16px;
 }
 .themes_10.link_wrapper a span {
     position: relative;
@@ -353,14 +353,14 @@
     margin: 10px;
 } 
 .editor_link.themes_10.link_wrapper a{
-    font-size: 12px;
+    fontSize: 12px;
     padding: 7px 25px;
     gap: 5px;
 }
 .editor_link.themes_10 .link_inner {
     gap: 5px;
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_link.themes_10.link_wrapper a span {
     padding-left: 10px;
@@ -378,7 +378,7 @@
     display: grid;
     border-radius: 0;
     padding: 18px 15px;
-    font-size: 16px;
+    fontSize: 16px;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.25);
     box-shadow: 0px 0px 0px 1px rgb(255 255 255 / 12%);
@@ -388,7 +388,7 @@
 }
 .editor_link.themes_11.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 /* theme 11 end */
 /* theme 12 start */
@@ -403,7 +403,7 @@
     border-radius: 10px;
     padding: 20px;
     text-align: left;
-    font-size: 16px;
+    fontSize: 16px;
     grid-template-columns: 1fr auto;
     gap: 5px;
     align-items: center;
@@ -420,7 +420,7 @@
 }
 .editor_link.themes_12.link_wrapper a {
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_link.themes_12.link_wrapper {
     margin-bottom: 15px;
@@ -435,7 +435,7 @@
 .themes_13.link_wrapper a{
     border-radius: 50px;
     padding: 10px 10px 10px 20px;
-    font-size: 16px;
+    fontSize: 16px;
     text-align: center;
 }
 .themes_13.link_wrapper span {
@@ -451,7 +451,7 @@
 }
 .editor_link.themes_13.link_wrapper a{
     padding: 6px 6px 6px 25px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_link.themes_13.link_wrapper span{
     padding: 10px;
@@ -465,7 +465,7 @@
 }
 
 .themes_14.link_wrapper a{
-    font-size: 16px;
+    fontSize: 16px;
     border-radius: 5px;
     padding: 18px 15px;
     background-color: #fff;
@@ -479,7 +479,7 @@
 }
 .editor_link.themes_14.link_wrapper a{
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     border-radius: 6px;
 }
 /* theme 14 end */
@@ -501,7 +501,7 @@
     gap: 5px;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    fontSize: 16px;
 }
 .themes_15.link_wrapper .link_bg{
     position: absolute;
@@ -521,7 +521,7 @@
     display: grid;
     border-radius: 10px;
     padding: 20px;
-    font-size: 16px;
+    fontSize: 16px;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.25);
     box-shadow: 0px 0px 0px 1px rgb(255 255 255 / 12%);
@@ -556,7 +556,7 @@
     display: grid;
     border-radius: 10px;
     padding: 10px;
-    font-size: 16px;
+    fontSize: 16px;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.25);
     box-shadow: 0px 0px 0px 1px rgb(255 255 255 / 12%);
@@ -577,7 +577,7 @@
 }
 .editor_link.themes_17.link_wrapper a {
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_link.themes_17.link_wrapper {
     margin-bottom: 10px;
@@ -594,7 +594,7 @@
     display: grid;
     border-radius: 50px;
     padding: 15px;
-    font-size: 16px;
+    fontSize: 16px;
     text-align: center;
     grid-template-columns: 1fr auto;
     align-items: center;
@@ -622,7 +622,7 @@
 }
 .editor_link.themes_18.link_wrapper a {
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_link.themes_18.link_wrapper {
     margin-bottom: 15px;
@@ -646,7 +646,7 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 16px;
+    fontSize: 16px;
 }
 .themes_19.link_wrapper .link_bg{
     position: absolute;
@@ -656,7 +656,7 @@
 }
 .editor_link.themes_19.link_wrapper a {
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_link.themes_19.link_wrapper {
     margin-bottom: 10px;
@@ -672,7 +672,7 @@
 .themes_20.link_wrapper a{
     display: grid;
     border-radius: 0;
-    font-size: 16px;
+    fontSize: 16px;
     padding: 20px;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.06);
@@ -693,12 +693,12 @@
 }
 .editor_link.themes_20.link_wrapper a {
     padding: 10px;
-    font-size: 14px;
+    fontSize: 14px;
 }
 .editor_link.themes_20.link_wrapper {
     margin-bottom: 10px;
 }
 /* theme 20 end */
 .editor_link.link_wrapper a {
-    font-size: 14px;
+    fontSize: 14px;
 }

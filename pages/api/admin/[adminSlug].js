@@ -398,7 +398,9 @@ routeHandler.updateUser = async (req, res) => {
 						source: "Admin",
 						parentId: adminUser._id,
 						name: postdata.name,
-						email: postdata.email,
+						email: postdata.email,qrId: postdata.qrId, // Add qrId
+						qrImage: postdata.qrImage, // Add qrImage
+						qrUrl: postdata.qrUrl,
 						password: md5(postdata.password),
 						ip: "",
 						role: 2,

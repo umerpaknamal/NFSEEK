@@ -67,7 +67,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f8fafd;
     color:var(--color-body);
-    font-size:14px;
+    fontSize:14px;
     line-height: 1.4;
     height: 100%;
     position: relative;
@@ -143,7 +143,7 @@ img, svg{
 }
 .pu_preloader .pu_preloader_inner > p{
     color: var(--color-heading);
-    font-size: 16px;
+    fontSize: 16px;
     margin: 0;
     font-weight: 600;
 }
@@ -201,7 +201,7 @@ img, svg{
 }
 .pu_setting_content_header > h3{
     margin: 0;
-    font-size: 18px;
+    fontSize: 18px;
     font-weight: 600;
 }
 .pu_setting_content_body{
@@ -222,7 +222,7 @@ img, svg{
     border-radius: 8px;
     border: none;
     color: #fff;
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 500;
     padding: 0 40px;
     cursor: pointer;
@@ -238,7 +238,7 @@ img, svg{
     border-radius: 8px;
     border: none;
     color: #ffffff;
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 500;
     padding: 0 50px;
     cursor: pointer;
@@ -246,7 +246,7 @@ img, svg{
 }
 .pu_btn_big{
     height: 50px;
-    font-size: 16px;
+    fontSize: 16px;
 }
 .pu_btn_gray{
     background-image: linear-gradient(180deg, #bdc3c7, #6d747a);
@@ -301,7 +301,7 @@ img, svg{
 }
 .pu_btn_add{
     height: auto;
-    font-size: 14px;
+    fontSize: 14px;
     padding: 2px 20px 2px 2px;
     gap: 8px;
     justify-content: flex-start;
@@ -323,7 +323,7 @@ img, svg{
     position: relative;
 }
 .pu_input_wrapper > label{
-    font-size: 13px;
+    fontSize: 13px;
     display: block;
     margin-bottom: 3px;
 }
@@ -331,7 +331,7 @@ img, svg{
     border: 1px solid #e5eaf2;
     border-radius: 8px;
     padding: 15px 20px;
-    font-size: 14px;
+    fontSize: 14px;
     width: 100%;
     outline: none;
     box-shadow: 0px 8px 20px 0px rgba(177, 193, 224, 0.08);
@@ -362,7 +362,7 @@ img, svg{
 .pu_tag_list .pu_tag_input{
     border: none;
     padding: 15px 6px;
-    font-size: 14px;
+    fontSize: 14px;
     width: 100%;
     outline: none;
 }
@@ -437,7 +437,7 @@ img, svg{
     align-items: center;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
     gap: 10px;
-    font-size: 14px;
+    fontSize: 14px;
     max-width: 400px;
     position: relative;
 }
@@ -468,7 +468,7 @@ img, svg{
 .pu_alert_wrapper > p .pu_alert_title{
     display: block;
     font-weight: 600;
-    font-size: 16px;
+    fontSize: 16px;
 }
 .pu_alert_wrapper > p.error .pu_alert_title{
     color: #ff3e5a;
@@ -589,7 +589,7 @@ img, svg{
 }
 .pu_pagetitle_wrapper > h3{
     margin: 0;
-    font-size: 18px;
+    fontSize: 18px;
     flex: none;
     display: flex;
     align-items: center;
@@ -610,7 +610,7 @@ img, svg{
     gap: 15px;
 }
 .pu_pagetitle_wrapper .pu_pagesubtitle{
-    font-size: 14px;
+    fontSize: 14px;
     color: var(--color-body);
     font-weight: 400;
 }
@@ -672,7 +672,7 @@ img, svg{
 /* tooltip start */
 .MuiTooltip-popper .MuiTooltip-tooltip{
     background-color: #222222;
-    font-size: 13px;
+    fontSize: 13px;
     font-weight: 400;
     font-family: inherit;
     padding: 6px 10px;
@@ -705,14 +705,14 @@ img, svg{
     border-bottom-color: transparent;
 }
 .pu_datatable_wrapper .rdt_TableCol{
-    font-size: 14px;
+    fontSize: 14px;
     color: #9aa4cc;
 }
 .pu_datatable_wrapper .rdt_TableCol_Sortable > span{
-    font-size: 8px;
+    fontSize: 8px;
 }
 .pu_datatable_wrapper .rdt_TableCell{
-    font-size: 14px;
+    fontSize: 14px;
     color: var(--color-body);
 }
 .pu_datatable_wrapper .rdt_TableRow{
@@ -777,7 +777,7 @@ img, svg{
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-size: 14px;
+    fontSize: 14px;
     text-transform: uppercase;
     font-weight: 600;
     padding-top: 2px;
@@ -882,7 +882,7 @@ img, svg{
     background-color: #ffffff;
     padding: 0 15px;
     color: var(--color-body);
-    font-size: 13px;
+    fontSize: 13px;
     font-weight: 600;
     outline: none;
 }
@@ -895,7 +895,7 @@ img, svg{
     align-items: center;
     vertical-align: middle;
     gap: 8px;
-    font-size: 15px;
+    fontSize: 15px;
     font-weight: 500;
     color: var(--color-body);
 }
@@ -941,7 +941,7 @@ img, svg{
 }
 .pu_color_picker_wrapper > .pu_color_picker_toggle > .pu_color_name{
     text-transform: uppercase;
-    font-size: 13px;
+    fontSize: 13px;
     font-weight: 500;
     flex: 1;
 }
@@ -1046,7 +1046,7 @@ img, svg{
     left: 0;
     background-color: #eef1f5;
     border-radius: 6px 0 0 6px;
-    font-size: 18px;
+    fontSize: 18px;
     font-weight: 300;
     border: 1px solid #e5eaf2;
     border-right: 0;
@@ -1072,7 +1072,7 @@ img, svg{
 .pu_radio > label{
     margin: 0;
     font-weight: 400;
-    font-size: 14px;
+    fontSize: 14px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1167,7 +1167,7 @@ img, svg{
     border-radius: 10px;
     background-color: rgba(var(--main-color-rgb), 0.05);
     gap: 15px;
-    font-size: 16px;
+    fontSize: 16px;
     color: var(--main-color);
     cursor: pointer;
 }
@@ -1222,7 +1222,7 @@ img, svg{
 }
 .pu_analytics_white_box > .pu_awb_details > h3{
     margin: 0;
-    font-size: 22px;
+    fontSize: 22px;
     color: #7a85b1;
 }
 .pu_analytics_white_box > .pu_awb_details > p{
@@ -1270,13 +1270,13 @@ img, svg{
 }
 .pu_noData > h3{
     margin: 0;
-    font-size: 22px;
+    fontSize: 22px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .pu_noData > p{
     margin: 0;
-    font-size: 16px;
+    fontSize: 16px;
 }
 /* no data end */
 
@@ -1352,13 +1352,13 @@ img, svg{
     .banner__full .pu_btn {
         gap: 10px;
         height: 40px;
-        font-size: 12px;
+        fontSize: 12px;
         padding: 0 30px;
     }
     .pu_btn {
         gap: 10px;
         height: 40px;
-        font-size: 12px;
+        fontSize: 12px;
         /* padding: 0 30px; */
         padding: 0 12px;
     }
@@ -1376,7 +1376,7 @@ img, svg{
         border-radius: 8px;
     }
     .pu_setting_content_header > h3{
-        font-size: 16px;
+        fontSize: 16px;
         font-weight: 500;
     }
     .pu_setting_content_body{
@@ -1387,7 +1387,7 @@ img, svg{
     }
     .pu_gradient_editor_wrapper .pu_add_color{
         padding: 10px;
-        font-size: 14px;
+        fontSize: 14px;
         border-radius: 6px;
     }
     .pu_setting_preview{
@@ -1523,7 +1523,7 @@ img, svg{
     background-color: #70db78b8;
     color: #fff;
     border-radius: 8px;
-    font-size: 10px;
+    fontSize: 10px;
 }
 
 .pu_plan_detail_wrapper .pu_plan_status {
@@ -1534,7 +1534,7 @@ img, svg{
 
 .pu_plan_detail_wrapper .pu_plan_detail h5{
     margin: 0;
-    font-size: 16px;
+    fontSize: 16px;
     font-weight: 600;
     max-width: 180px;
 }

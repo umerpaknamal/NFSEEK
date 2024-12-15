@@ -20,7 +20,7 @@
     background: #f9913a;
 }
 .page_heading {
-  font-size: 22px;
+  fontSize: 22px;
   margin: 0;
   padding:0;
   font-weight: 600;
@@ -33,7 +33,7 @@
    color: #5f6c91;
 }
 .banner_help h3 {
-    font-size: 42px;
+    fontSize: 42px;
     margin: 0;
     padding: 120px 0;
     color: #fff;
@@ -53,12 +53,12 @@
     text-align: center;
 }
 .help_main.help_main_home a{
-    font-size: 22px;
+    fontSize: 22px;
 }
 .help_main a {
     background-color: #fff;
     padding: 40px 30px;
-    font-size: 16px;
+    fontSize: 16px;
     box-shadow: 0px 18px 30px 0px rgb(177 193 224 / 10%);
     border-radius: 8px;
     line-height: 1.4;
@@ -97,7 +97,7 @@
     padding: 70px 0;
 }
 .pu_top_left span {
-    font-size: 22px;
+    fontSize: 22px;
     line-height: 1.4;
     letter-spacing: 0.5px;
     margin-bottom: 10px;
@@ -107,19 +107,19 @@
     font-weight: 300;
 }
 .pu_top_left h3 {
-    font-size: 38px;
+    fontSize: 38px;
     margin: 0;
     padding: 5px 0; 
     line-height: 1.4;
     letter-spacing: 0.5px;
 }
 .pu_top_center p {
-    font-size: 14px;
+    fontSize: 14px;
     letter-spacing: 0.5px;
     line-height: 1.4;
 }
 .pu_top_right span {
-    font-size: 14px;
+    fontSize: 14px;
     background-color: #f9913a;
     padding: 10px 25px;
     border-radius: 50px;
@@ -153,11 +153,11 @@
     border-radius: 8px;
 }
 .pu_faq_field h4 { 
-    font-size: 24px;
+    fontSize: 24px;
     color: #000;
 }
 .pu_faq_field h4 {
-    font-size: 24px;
+    fontSize: 24px;
     line-height: 1.4;
     letter-spacing: 0.5px;
     margin: 0;
@@ -165,7 +165,7 @@
     color: #000;
 }
 .pu_faq_field p {
-    font-size: 15px;
+    fontSize: 15px;
     line-height: 1.4;
     letter-spacing: 0.5px;
     margin: 0;
@@ -176,7 +176,7 @@
 
 }
 .pu_field_left h3 {
-    font-size: 28px;
+    fontSize: 28px;
     margin: 0;
     padding: 0 0 10px;
 }
@@ -184,12 +184,12 @@
 
 }
 .pu_field_center h3  {
-    font-size: 26px;
+    fontSize: 26px;
     margin: 0;
     padding: 0 0 10px;
 }
 .pu_field_center p  {
-    font-size: 16px;
+    fontSize: 16px;
     margin: 0;
     padding: 0;
 }
@@ -221,7 +221,7 @@
 }
 @media only screen and (max-width: 768px) {
     .page_heading {
-        font-size: 18px;
+        fontSize: 18px;
     }
     .page_full_handle {
        padding: 30px 0;
@@ -232,20 +232,20 @@
         text-align:  center; 
     }
     .page_handle a {
-        font-size: 14px;
+        fontSize: 14px;
     } 
     .banner_help h3 {
-        font-size: 28px;
+        fontSize: 28px;
         padding: 50px 0;
     }
     .pu_top_left span {
-        font-size: 15px;
+        fontSize: 15px;
     }
     .pu_top_left h3 {
-        font-size: 24px;
+        fontSize: 24px;
     }
     .pu_field_left h3 {
-        font-size: 16px;
+        fontSize: 16px;
     }
     .pu_top_right {
         margin-top: 15px;
@@ -256,13 +256,13 @@
         margin-bottom: 15px;
     }
     .pu_field_center h3 {
-        font-size: 16px;
+        fontSize: 16px;
     }
     .pu_field_right svg {
        width: 20px;
     }
     .pu_field_center p {
-        font-size: 14px;
+        fontSize: 14px;
     }
     .faq_help {
         padding: 50px 0;
@@ -272,11 +272,11 @@
        margin: 50px 0;
     }
     .help_main.help_main_home a{
-        font-size: 14px;
+        fontSize: 14px;
     }
     .help_main a {
         padding: 20px 20px;
-        font-size: 15px;
+        fontSize: 15px;
     }
     .pu_top_help {
         grid-template-columns: 1fr;

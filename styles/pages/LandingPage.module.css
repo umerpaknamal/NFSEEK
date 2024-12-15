@@ -34,7 +34,7 @@
     display: block;
     padding: 10px 15px;
     font-weight: 400;
-    font-size: 14px;
+    fontSize: 14px;
     cursor: pointer;
     /* color: #7a85b1; */
 }
@@ -73,7 +73,7 @@
     max-width: 400px;
 }
 .banner_content h1{
-    font-size: 46px;
+    fontSize: 46px;
     font-weight: 700;
     margin: 0;
     margin-bottom: 0.2em;
@@ -85,13 +85,13 @@
     text-decoration-thickness: 2px;
     text-underline-offset: 3px;
     display: block;
-    font-size: 1.2em;
+    fontSize: 1.2em;
 }
 .banner_content h1 > span > .Typewriter__cursor{
     font-weight: 100;
 }
 .banner_content p{
-    font-size: 17px;
+    fontSize: 17px;
     margin: 0;
     margin-bottom: 25px;
     /* color: #7a85b1; */
@@ -154,7 +154,7 @@
 }
 .core_feature_box p{
     margin: 0;
-    font-size: 15px;
+    fontSize: 15px;
     /* color: #9aa4cc;
     line-height: 1.625;
     letter-spacing: 0.5px; */
@@ -192,12 +192,12 @@
     margin-bottom: 30px;
 }
 .main_heading h3{
-    font-size: 36px;
+    fontSize: 36px;
     font-weight: bold;
     margin: 0;
 }
 .main_heading strong{
-    font-size: 16px;
+    fontSize: 16px;
     display: block;
     font-weight: 400;
     /* color: #7a85b1; */
@@ -205,7 +205,7 @@
 .core_feature_right p{
     margin: 0 0 30px;
     /* color: #9aa4cc; */
-    font-size: 15px;
+    fontSize: 15px;
     line-height: 1.625;
 }
 /* core feature end */
@@ -259,14 +259,14 @@
 }
 .works_box_data h3 {
     margin: 0 0 7px;
-    font-size: 16px;
+    fontSize: 16px;
     /* color: #7a85b0; */
     font-weight: 600;
 }
 .works_box_data p {
     /* color: #9aa4cc; */
     margin: 0;
-    font-size: 14px;
+    fontSize: 14px;
     /* line-height: 1.625;
     letter-spacing: 0.5px; */
 }
@@ -274,7 +274,7 @@
     border-radius: 10px;
     overflow: hidden;
     padding: 15px;
-    font-size: 0;
+    fontSize: 0;
     position: relative;
     z-index: 1;
 }
@@ -353,14 +353,14 @@
    padding: 30px;
 }
 .exclusive_features_wr .features_box_item h3 {
-    font-size: 16px;
+    fontSize: 16px;
     line-height: 1.65;
     color: var(--color-heading);
     font-weight: 600;
     margin: 15px 0 10px;
 }
 .exclusive_features_wr .features_box_item p {
-    font-size: 14px;
+    fontSize: 14px;
     /* color: #9aa4cc; */
     font-weight: 400;
     margin: 0;
@@ -402,7 +402,7 @@
     background-color: #ffffff;
     border: 1px solid #e5eaf2;
     display: flex;
-    font-size: 16px;
+    fontSize: 16px;
     line-height: 78px;
     color: #000;
     font-weight: 500;
@@ -414,7 +414,7 @@
     height: 50px;
     border-radius: 8px;
     background-image: linear-gradient(0deg, #ff5873 0%, #ffad5d 100%);
-    font-size: 16px;
+    fontSize: 16px;
     line-height: 50px;
     color: #ffffff;
     font-weight: 700;
@@ -448,14 +448,14 @@
     max-width: 580px;
 }
 .subscribe_section_wr .subscribe_box_main .subscribe_form h3 {
-    font-size: 36px;
+    fontSize: 36px;
     line-height: 46px;
     color: #303e65;
     font-weight: 700;
     margin: 0;
 }
 .subscribe_section_wr .subscribe_box_main .subscribe_form p {
-    font-size: 16px;
+    fontSize: 16px;
     line-height: 1.65;
     color: #7a85b1;
     font-weight: 300;
@@ -475,7 +475,7 @@
     width: 270px;
 }
 .footer_main_box .footer_list_1 p {
-    font-size: 14px;
+    fontSize: 14px;
     line-height: 22px;
     /* color: #9aa4cc; */
     font-weight: 400;
@@ -508,14 +508,14 @@
     color: #0ce27a;
 }
 .footer_info h3 {
-    font-size: 16px;
+    fontSize: 16px;
     line-height: 1.65;
     color: var(--color-heading);
     font-weight: 500;
     margin: 0;
 }
 .footer_info p {
-    font-size: 14px;
+    fontSize: 14px;
     line-height: 1.65;
     /* color: #9aa4cc; */
     font-weight: 400;
@@ -545,7 +545,7 @@
     margin: 0 auto;
 }
 .footer__wr .footer_copy__right p {
-    font-size: 13px;
+    fontSize: 13px;
     line-height: 1.65;
     color: #9aa4cc;
     font-weight: 400;
@@ -566,7 +566,7 @@
     gap: 5px;
     cursor: pointer;
     color: var(--main-color);
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 500;
     line-height: 11px;
 }
@@ -650,7 +650,7 @@
 }
 .testimonial_box_contant .testimonial__box > .content_box_tes {
     width: 670px;
-    font-size: 16px;
+    fontSize: 16px;
     line-height: 1.65;
     color: #7a85b0
 ;
@@ -661,7 +661,7 @@
    border-radius: 100px;
 }
 .testimonial_main .client_name {
-    font-size: 20px;
+    fontSize: 20px;
     line-height: 1.4;
     color: var(--color-heading);
     font-weight: 700;
@@ -669,7 +669,7 @@
     margin: 15px 0;
 }
 .client_info {
-    font-size: 14px;
+    fontSize: 14px;
     line-height: 1.4;
     color: #7a85b0;
     font-weight: 400;
@@ -680,7 +680,7 @@
 /* Media Query Css Start */
 @media screen and (min-device-width: 767px) and (max-device-width: 1300px) { 
     .banner_content h1 {
-       font-size: 32px;
+       fontSize: 32px;
     }
     .banner_content {
         
@@ -735,7 +735,7 @@
 @media only screen and (max-width: 992px) {
 
     .banner_content p {
-        font-size: 16px;
+        fontSize: 16px;
     }
 /* exclusive features css start */
     .exclusive_features_main {
@@ -779,7 +779,7 @@
     }
     .testimonial_box_contant .testimonial__box > .content_box_tes {
         width: 100%;
-        font-size: 14px;
+        fontSize: 14px;
     }
     .testimonial_main .testimonial_list_main ul li {
         margin: 0 10px;
@@ -801,10 +801,10 @@
         padding: 30px 0;
      }
     .main_heading h3 {
-        font-size: 22px;
+        fontSize: 22px;
     }
     .main_heading strong {
-      font-size: 14px;
+      fontSize: 14px;
       padding: 0 10px;
     }
 /* Header MOb Css  */
@@ -851,10 +851,10 @@
         gap: 35px;
     }
     .banner_content h1 {
-        font-size: 20px;
+        fontSize: 20px;
     }
     .banner_content p {
-        font-size: 14px;
+        fontSize: 14px;
         margin-bottom: 20px;
     }
     .bg_left {
@@ -866,7 +866,7 @@
        grid-template-columns: auto;
     } 
     .core_feature_content .main_heading h3 {
-        font-size: 22px;
+        fontSize: 22px;
     }
     .core_feature_right {
         padding-left: 0;
@@ -876,10 +876,10 @@
         padding: 150px 0 80px;
     }
     .core_feature_box p {
-        font-size: 14px;
+        fontSize: 14px;
     }
     .core_feature_right p {
-        font-size: 14px;
+        fontSize: 14px;
     }
 /* core_feature MOb Css End   */
     .works_content {
@@ -897,7 +897,7 @@
          padding: 15px;
     }
     .works_box_data h3 {
-        font-size: 16px;
+        fontSize: 16px;
     }
     /* exclusive features css start */
     .exclusive_features_wr {
@@ -915,11 +915,11 @@
         padding: 50px 0;
     }   
    .subscribe_section_wr .subscribe_box_main .subscribe_form h3 {
-        font-size: 22px;
+        fontSize: 22px;
         line-height: 35px;
     }
     .subscribe_section_wr .subscribe_box_main .subscribe_form p {
-         font-size: 14px;
+         fontSize: 14px;
     }
     .subscribe_section_wr .subscribe_img img {
         margin-top: -30px;
@@ -969,7 +969,7 @@
     /* footer features css end */  
     /* testimonial css start */
     .testimonial_main .client_name {
-        font-size: 16px;
+        fontSize: 16px;
         margin: 10px 0;
     }
     .testimonial_box_contant {
@@ -1028,7 +1028,7 @@
         margin: 10px 10px;
     }
     .footer__wr .footer_copy__right p {
-        font-size: 14px;
+        fontSize: 14px;
         padding: 0 10px;
     }
     /* footer section end */

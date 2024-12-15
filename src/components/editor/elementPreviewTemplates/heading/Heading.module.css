@@ -1,5 +1,5 @@
 .el_heading{
-    font-size: 18px;
+    fontSize: 18px;
     color: var(--color-heading);
     font-weight: 600;
     margin-bottom: 10px;

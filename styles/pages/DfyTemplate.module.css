@@ -9,7 +9,7 @@
     padding: 20px;
 }
 .template_list_sidebar > h3{
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 600;
     margin: 0;
     margin-bottom: 10px;
@@ -22,7 +22,7 @@
 .template_list_sidebar > ul > li{
     padding: 10px 0;
     cursor: pointer;
-    font-size: 13px;
+    fontSize: 13px;
     border-bottom: 1px solid #e5eaf2;
 }
 .template_list_sidebar > ul > li:last-child{

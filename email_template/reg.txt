@@ -27,20 +27,20 @@
                 padding: 25px;
             }
             .pu_template_email .pu_template_content p span {
-                font-size: 14px;
+                fontSize: 14px;
                 font-weight: 600;
                 color: #5F6C91;
                 line-height: 1.4;
             }
             .pu_template_email .pu_template_content p {
-                font-size: 14px;
+                fontSize: 14px;
                 color: #5F6C91;
                 font-weight: 400;
                 margin-bottom: 25px;
                 line-height: 1.4;
             }
             .pu_template_email .pu_logo_tmp h2 {
-                font-size: 18px;
+                fontSize: 18px;
                 text-align: center;
                 margin: 25px 0 20px;
                 font-weight: 500;
@@ -58,7 +58,7 @@
                 color: #fff;
                 font-weight: 500;
                 background-color: #F9913A;
-                font-size: 16px;
+                fontSize: 16px;
                 line-height: 1.4;
                 text-decoration: none;
                 text-transform: capitalize;
@@ -70,14 +70,14 @@
                margin-top: 30px;
             }
             .pu_template_email .pu_template_bottom h4 {
-                font-size: 16px;
+                fontSize: 16px;
                 color: #313337;
                 margin: 0;
                 font-weight: 500;
                 line-height: 1.4;
             }
             .pu_template_email .pu_template_bottom p {
-                font-size: 14px;
+                fontSize: 14px;
                 color: #5F6C91;
                 margin: 15px 0;
                 line-height: 1.4;
@@ -88,14 +88,14 @@
                  margin: 0;
             }
             .pu_template_email .pu_template_bottom .email__content {
-                font-size: 14px;
+                fontSize: 14px;
                 color:#5F6C91 ;
             }
             .pu_template_email .pu_success_content  {  
                margin:35px 0 0;
             }
             .pu_template_email .pu_success_content p {  
-                font-size: 14px;
+                fontSize: 14px;
                 color: #313337;
                 font-weight: 400;
                 line-height: 1.6;
@@ -111,12 +111,12 @@
                 .pu_template_email .pu_logo_tmp h2 {
                     margin: 20px 0 15px;
                     padding: 20px 0 0;
-                    font-size: 18px;
+                    fontSize: 18px;
                 }
                 .pu_template_email .pu_template_content .pu_btn {
                     padding: 10px 25px;
                     margin: 0 0 10px;
-                    font-size: 14px;
+                    fontSize: 14px;
                 }
                 .pu_template_email .pu_template_content {
                     padding: 20px;

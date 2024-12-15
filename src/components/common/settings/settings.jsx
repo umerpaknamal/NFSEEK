@@ -15,8 +15,8 @@ const Settings = (props) => {
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
-            pageHeading: "PixaURL - Setting",
-            title: "PixaURL - Setting",
+            pageHeading: "PaxURL - Setting",
+            title: "PaxURL - Setting",
         }));
     }, [dispatch]);
 

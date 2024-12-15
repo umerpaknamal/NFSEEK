@@ -19,12 +19,12 @@
 .header_title > h3{
     flex: 1;
     margin: 0;
-    font-size: 16px;
+    fontSize: 16px;
     font-weight: 600;
 }
 .header_title > h3 > span{
     margin-left: 5px;
-    font-size: 14px;
+    fontSize: 14px;
     color: var(--color-body);
     font-weight: 400;
 }
@@ -38,7 +38,7 @@
 .header_btns .btn{
     width: 230px;
     height: 60px;
-    font-size: 16px;
+    fontSize: 16px;
     padding: 10px;
     gap: 12px;
     justify-content: flex-start;
@@ -67,7 +67,7 @@
     height: 34px;
 }
 .profile_section_title{
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 500;
     margin: 0;
     flex: 1 1;
@@ -128,7 +128,7 @@
 }
 .element_item > p{
     margin: 0;
-    font-size: 16px;
+    fontSize: 16px;
     color: #9aa4cc;
 }
   

@@ -155,7 +155,12 @@ const Header = (props) => {
                                                 </li>
                                                 <li>
                                                     <Link href="/links">
-                                                        <a className={isActive('/links')}>My Links</a>
+                                                        <a className={isActive('/links')}>My Profiles</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/myqr">
+                                                        <a className={isActive('/myqr')}>My QR Codes</a>
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -171,6 +176,7 @@ const Header = (props) => {
                                                 </li>
                                                 : ''
                                                 }
+                                                
                                             </>
                                             :
                                             <>

@@ -14,8 +14,8 @@ const ErrorComp = () => {
     const [isUserLogin, setIsUserLogin] = useState(false);
     useEffect(() => {
         dispatch(setPageHeading({
-            title: 'PixaURL - Page Not Found',
-            pageHeading: 'PixaURL - Page Not Found',
+            title: 'PaxURL - Page Not Found',
+            pageHeading: 'PaxURL - Page Not Found',
         }));
 
         let tokenCookie = Cookies.get('accessToken') ? Cookies.get('accessToken') : false;

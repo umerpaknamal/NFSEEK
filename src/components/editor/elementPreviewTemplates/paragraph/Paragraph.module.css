@@ -1,5 +1,5 @@
 .el_paragraph{
-    font-size: 14px;
+    fontSize: 14px;
     color: var(--color-body);
     margin-bottom: 10px;
 }

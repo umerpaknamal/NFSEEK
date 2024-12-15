@@ -20,8 +20,8 @@ const Dashboard = () => {
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
-            pageHeading: "PixaURL - Dashboard",
-            title: "PixaURL - Dashboard",
+            pageHeading: "PaxURL - Dashboard",
+            title: "PaxURL - Dashboard",
         }));
     }, [dispatch]);
     const [linkCount, setLinkCount] = useState('0');
@@ -94,7 +94,7 @@ const Dashboard = () => {
                         <p>Monthly Visitor</p>
                     </div>
                 </div>
-                <div className="pu_analytics_white_box">
+                {/* <div className="pu_analytics_white_box">
                     <div className="pu_awb_icon">
                         {svg.analysis_links}
                     </div>
@@ -102,12 +102,12 @@ const Dashboard = () => {
                         <h3>{linkCount}</h3>
                         <p>Created Links</p>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className={styles.create_link_header}>
-                <h3>Newly Created Links</h3>
-                <Link href="/templates"><a className="pu_btn pu_btn_add">{svg.btn_add_icon} Create New Link</a></Link>
+                <h3>My Profile List</h3>
+                <Link href="/templates"><a className="pu_btn pu_btn_add">{svg.btn_add_icon} Create New Profile</a></Link>
                 {/* <CreateLink>
                     
                 </CreateLink> */}

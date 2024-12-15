@@ -9,7 +9,7 @@
 }
 
 .heading h3 {
-  font-size: 28px;
+  fontSize: 28px;
   color: var(--pix-title-color);
   font-weight: 600;
   text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .heading p {
-  font-size: 16px;
+  fontSize: 16px;
   line-height: 35px;
   color: #7a85b1;
   font-weight: 400;
@@ -110,7 +110,7 @@
 .plan_item .plan_name_wrap {
   text-align: center;
   padding: 30px 0px;
-  font-size: 20px;
+  fontSize: 20px;
   color: #7a85b1;
   font-weight: 700;
   text-transform: uppercase;
@@ -135,7 +135,7 @@
   background-color: rgba(120, 127, 242, 0.15);
 }
 .plan_item .plan_price_wrap p {
-  font-size: 30px;
+  fontSize: 30px;
   font-weight: 800;
   font-family: "Nunito";
   text-align: center;
@@ -166,7 +166,7 @@
 .coupon_wrapper h2{
   color: black;
   margin: 0;
-  font-size: 25px;
+  fontSize: 25px;
 }
 .apply_couple_toggle_wrap{
   /* text-align: start; */
@@ -199,7 +199,7 @@
 }
 .amount_wrap p{
   margin-bottom: 20px;
-  font-size: 12px;
+  fontSize: 12px;
 }
 /* ========================== media css start ================================ */
 @media(max-width:1200px){

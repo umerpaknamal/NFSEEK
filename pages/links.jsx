@@ -10,8 +10,8 @@ const MyLinks = () => {
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
-            pageHeading: "PixaURL - My Links",
-            title: "PixaURL - My Links",
+            pageHeading: "PaxURL - My Profile",
+            title: "PaxURL - My Profile",
         }));
     }, [dispatch]);
     const [linkCount, setLinkCount] = useState('0');
@@ -44,13 +44,13 @@ const MyLinks = () => {
         <div className="pu_container">
             <PlanAlert show={showAlertBar} onClose={alertBarCloseHandler} />
             <div className="pu_pagetitle_wrapper">
-                <h3>My Links ({linkCount})</h3>
+                <h3>My Profiles ({linkCount})</h3>
                 <div className="pu_pagetitle_right">
                     {/* <div className="pu_search_wrapper">
                         <input type="text" placeholder="Search"/>
                         <span className="pu_search_icon">{svg.search_icon}</span>
                     </div> */}
-                    <Link href="/templates"><a className="pu_btn">Add New</a></Link>
+                    <Link href="/templates"><a className="pu_btn">Add New Profile</a></Link>
                     {/* <CreateLink>
                     </CreateLink> */}
                 </div>

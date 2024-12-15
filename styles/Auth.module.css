@@ -18,13 +18,13 @@
     margin: 0 auto;
 }
 .auth_box h3{
-    font-size: 24px;
+    fontSize: 24px;
     font-weight: 700;
     margin: 0;
     margin-bottom: 4px;
 }
 .auth_box p{
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 400;
     margin: 0;
     margin-bottom: 30px;
@@ -46,7 +46,7 @@
     outline: none;
     width: 100%;
     padding: 0 40px;
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 500;   
     line-height: 67px;
     color: var(--body-color);
@@ -81,7 +81,7 @@
 
 .auth_footer{
     margin-top: 30px;
-    font-size: 16px;
+    fontSize: 16px;
     font-weight: 500;
 }
 .auth_footer a{

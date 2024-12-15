@@ -1068,6 +1068,92 @@ routeHandler.duplicateCampaign = async (req, res) => {
 	}
 }
 
+routeHandler.createUser = async (req, res) => {
+	let postdata = req.body;
+	try {
+		// Validate required fields
+		let validateFields = ["name", "email", "password"];
+		let response = await Common.requestFieldsValidation(validateFields, postdata);
+		if (response.status) {
+			const newUser = new Users({
+				name: postdata.name,
+				email: postdata.email,
+				password: md5(postdata.password),
+				contactNumber: postdata.contactNumber,
+				qrId: postdata.qrId, // Add qrId
+				qrImage: postdata.qrImage, // Add qrImage
+				qrUrl: postdata.qrUrl, // Add qrUrl
+			});
+			await newUser.save();
+			res.json({
+				status: 'success',
+				message: 'User created successfully.',
+				data: newUser
+			});
+		} else {
+			res.json({
+				status: 'error',
+				message: 'Validation failed.'
+			});
+		}
+	} catch (err) {
+		console.log(err);
+		res.json({
+			status: 'error',
+			message: 'Server error'
+		});
+	}
+};
+
+routeHandler.updateUser = async (req, res) => {
+	let postdata = req.body;
+	let user = req.vsuser;
+	try {
+		let validateFields = ["name"];
+		let response = await Common.requestFieldsValidation(validateFields, postdata);
+		if (response.status) {
+			let where = {
+				_id: user._id
+			};
+
+			let set = {
+				name: postdata.name,
+				qrId: postdata.qrId, // Update qrId
+				qrImage: postdata.qrImage, // Update qrImage
+				qrUrl: postdata.qrUrl, // Update qrUrl
+			};
+
+			if (typeof postdata.password != 'undefined' && postdata.password != "") {
+				set.password = md5(postdata.password);
+			}
+
+			await Users.updateOne(where, {
+				$set: set
+			}).then(() => {
+				if (set.password) {
+					delete set.password;
+				}
+				res.json({
+					status: 'success',
+					message: 'User updated successfully.',
+					data: set
+				});
+			});
+		} else {
+			res.json({
+				status: 'error',
+				message: 'Validation failed.'
+			});
+		}
+	} catch (err) {
+		console.log(err);
+		res.json({
+			status: 'error',
+			message: 'Server error'
+		});
+	}
+};
+
 async function handler(req, res) {
   const { userSlug } = req.query
   let routeFlag = true
@@ -1118,6 +1204,12 @@ async function handler(req, res) {
         break;
       case 'duplicateCampaign':
         await routeHandler.duplicateCampaign(req, res)
+        break;
+      case 'createUser':
+        await routeHandler.createUser(req, res)
+        break;
+      case 'updateUser':
+        await routeHandler.updateUser(req, res)
         break;
       default:
         routeFlag = false

@@ -16,7 +16,7 @@
 .autosave > p{
     width: 70px;
     color: #4caf50;
-    font-size: 14px;
+    fontSize: 14px;
     font-weight: 600;
     margin: 0;
 }
