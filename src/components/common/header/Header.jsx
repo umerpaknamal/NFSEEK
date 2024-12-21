@@ -164,10 +164,16 @@ const Header = (props) => {
                                                     </Link>
                                                 </li>
                                                 <li>
+            <Link href="/contacts">
+                <a className={isActive('/contacts')}>Contacts</a>
+            </Link>
+        </li>
+                                                <li>
                                                     <Link href="/templates">
                                                         <a className={isActive('/templates')}>Templates</a>
                                                     </Link>
                                                 </li>
+                                                
                                                 {isEnabled ? 
                                                 <li>
                                                     <Link href="/checkout">
@@ -176,7 +182,6 @@ const Header = (props) => {
                                                 </li>
                                                 : ''
                                                 }
-                                                
                                             </>
                                             :
                                             <>
@@ -196,7 +201,7 @@ const Header = (props) => {
                                                     </Link>
                                                 </li>
                                                 <li className={styles.nav_dropdown}>
-                                                <a className={isActive('/admin/plans') || isActive('/admin/coupons')}>Plans</a>
+                                                    <a className={isActive('/admin/plans') || isActive('/admin/coupons')}>Plans</a>
                                                     <ul>
                                                         <li>
                                                             <Link href="/admin/plans">
@@ -218,11 +223,6 @@ const Header = (props) => {
                                                 <li className={styles.nav_dropdown}>
                                                     <a className={isActive('/admin/themes') || isActive('/admin/iconpack')}>Resources</a>
                                                     <ul>
-                                                        {/* <li>
-                                                            <Link href="/admin/themes">
-                                                                <a className={isActive('/admin/themes')}>Themes</a>
-                                                            </Link> 
-                                                        </li> */}
                                                         <li>
                                                             <Link href="/admin/icontype">
                                                                 <a className={isActive('/admin/icontype')}>Icon Type</a>
