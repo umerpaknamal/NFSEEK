@@ -15,7 +15,7 @@ import { confirmPopupStatus, setPageHeading } from "../../src/redux/actions/comm
 import Link from "next/link";
 
 const Iconpack = () => {
-
+    
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
