@@ -180,7 +180,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>PixaURL - Connect And Manage All Your Social Links At One Place</title>
+        <title>PaxURL - Connect And Manage All Your Social Links At One Place</title>
       </Head>
       <div className={styles.wrapper}>
         {/* header start */}

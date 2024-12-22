@@ -163,11 +163,7 @@ const Header = (props) => {
                                                         <a className={isActive('/myqr')}>My QR Codes</a>
                                                     </Link>
                                                 </li>
-                                                <li>
-            <Link href="/contacts">
-                <a className={isActive('/contacts')}>Contacts</a>
-            </Link>
-        </li>
+                                                
                                                 <li>
                                                     <Link href="/templates">
                                                         <a className={isActive('/templates')}>Templates</a>
