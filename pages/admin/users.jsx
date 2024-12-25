@@ -268,59 +268,41 @@ const Users = () => {
     };
 
     /* add user start */
-    const addUserFormSubmit = (e) => {
+    const addUserFormSubmit = async (e) => {
         e.preventDefault();
-        const emptyname = validator.isEmpty(name, {ignore_whitespace:true});
-        const emptyemail = validator.isEmpty(email, {ignore_whitespace:true});
-        const emptypassword = validator.isEmpty(password, {ignore_whitespace:true});
-        const emptyqrId = validator.isEmpty(qrId, {ignore_whitespace:true});
-        const emptyqrImage = validator.isEmpty(qrImage, {ignore_whitespace:true});
-        const emptyqrUrl = validator.isEmpty(qrUrl, {ignore_whitespace:true});
         
-        const isemail = validator.isEmail(email);
-        const passlength = validator.isLength(password, {min:5, max:15});
-        
-        if(emptyname || emptyemail || (emptypassword && !isEdit) || emptyqrId || emptyqrImage || emptyqrUrl){
-            AlertMsg('error', 'Oops!', 'Field can not be empty!');
-            return false;
-        } else if(!isemail){
-            AlertMsg('error', 'Oops!', 'Email Is not valid!');
-            return false;
-        } else if(!passlength && !isEdit || !passlength && password){
-            AlertMsg('error', 'Oops!', 'Password should be between 5 to 15 characters.');
-            return false;
-        } else {
-            const data = {
-                name: name,
-                email: email,
-                password: password,
-                qrId: qrId,
-                qrImage: qrImage,
-                qrUrl: qrUrl
-            };
-            if(isEdit === true){
-                data.id = editId;
-                if(password === '') delete data.password;
-            }
-            Loading(true);
-            common.getAPI({
-                method: 'POST',
-                url: 'admin/updateUser',
-                data: data
-            }, (resp) => {
-                if(resp.status === "success"){
-                    userPopupCloseHandler();
-                    setEditId('');
-                    setName('');
-                    setEmail('');
-                    setPassword('');
-                    setQrId('');
-                    setQrImage('');
-                    setQrUrl('');
-                    fetchUsers(1);
-                }
-            });
+        if (!name || !email || (!isEdit && !password)) {
+            AlertMsg('error', 'Please fill all required fields');
+            return;
         }
+
+        if (!validator.isEmail(email)) {
+            AlertMsg('error', 'Please enter a valid email address');
+            return;
+        }
+
+        const data = {
+            name,
+            email,
+            password,
+            qrId,
+            qrImage,
+            qrUrl
+        };
+
+        common.getAPI({
+            method: 'POST',
+            url: 'admin/updateUser',
+            data: data
+        }, (resp) => {
+            if (resp.status === 'success') {
+                AlertMsg('success', resp.message);
+                userPopupCloseHandler();
+                fetchUsers(1);
+            } else {
+                AlertMsg('error', resp.message);
+            }
+        });
     }
     /* add user end */
     
@@ -352,6 +334,9 @@ const Users = () => {
             setEditId(user._id);
             setName(user.name);
             setEmail(user.email);
+            setQrId(user.qrId || '');
+            setQrImage(user.qrImage || '');
+            setQrUrl(user.qrUrl || '');
             setAddUserPopup(true);
         } else {
             console.error(`User with id ${id} not found.`);

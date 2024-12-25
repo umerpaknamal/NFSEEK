@@ -178,6 +178,21 @@ const Header = (props) => {
                                                 </li>
                                                 : ''
                                                 }
+                                                <li>
+                                                    <Link href="/teams">
+                                                        <a className={isActive('/teams')}>Teams</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/contacts">
+                                                        <a className={isActive('/contacts')}>Contacts</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/leaderboard">
+                                                        <a className={isActive('/leaderboard')}>Leaderboard</a>
+                                                    </Link>
+                                                </li>
                                             </>
                                             :
                                             <>

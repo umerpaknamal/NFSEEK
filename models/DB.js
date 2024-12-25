@@ -22,6 +22,8 @@ import AdminSettings from './AdminSettings';
 import OrderList from './OrderList';
 import AutoIncreament from './AutoIncrement';
 import Coupons from './Coupons';
+import Contact from './Contact';
+import Team from './Team';
 
 // Models/tables
 db.Users = Users;
@@ -46,6 +48,9 @@ db.AdminSettings = AdminSettings;
 db.OrderList = OrderList;
 db.AutoIncreament = AutoIncreament;
 db.Coupons = Coupons;
+db.Contact = Contact;
+db.Team = Team;
+
 // for first time when tables are empty
 for (let collectionname in db) {
 	db[collectionname].createCollection();
