@@ -29,11 +29,37 @@ const Header = (props) => {
     const [isEnabled, setIsEnabled] = useState(false)
 
     const isActive = (route) => {
-        if(route == pathname){
-            return styles.active
-        }
-        else ""
-    }
+        return router.pathname === route ? styles.active : '';
+    };
+
+    const renderSubMenu = (items) => {
+        return (
+            <ul className={styles.subMenu}>
+                {items.map((item) => (
+                    <li key={item.href}>
+                        <Link href={item.href}>
+                            <a className={isActive(item.href)}>{item.label}</a>
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+        );
+    };
+
+    const subMenuManagement = [
+        { href: '/contacts', label: 'Contacts' },
+        { href: '/teams', label: 'Teams' },
+    ];
+
+    const subMenuProfileTemplates = [
+        { href: '/links', label: 'My Profile' },
+        { href: '/templates', label: 'Templates' },
+    ];
+
+    const subMenuAnalytics = [
+        { href: '/myqr', label: 'My QR Codes' },
+        { href: '/leaderboard', label: 'Leaderboard' },
+    ];
 
     const checkPlanFeature = () =>{
         common.getAPI(
@@ -153,45 +179,20 @@ const Header = (props) => {
                                                         <a className={isActive('/dashboard')}>Dashboard</a>
                                                     </Link>
                                                 </li>
-                                                <li>
-                                                    <Link href="/links">
-                                                        <a className={isActive('/links')}>My Profiles</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/myqr">
-                                                        <a className={isActive('/myqr')}>My QR Codes</a>
-                                                    </Link>
-                                                </li>
                                                 
-                                                <li>
-                                                    <Link href="/templates">
-                                                        <a className={isActive('/templates')}>Templates</a>
-                                                    </Link>
-                                                </li>
+                                            
                                                 
-                                                {isEnabled ? 
-                                                <li>
-                                                    <Link href="/checkout">
-                                                        <a className={isActive('/checkout')}>Pricing</a>
-                                                    </Link>
+                                                <li className={styles.nav_dropdown}>
+                                                    <a className={isActive('/contacts') || isActive('/teams')}>Management</a>
+                                                    {renderSubMenu(subMenuManagement)}
                                                 </li>
-                                                : ''
-                                                }
-                                                <li>
-                                                    <Link href="/teams">
-                                                        <a className={isActive('/teams')}>Teams</a>
-                                                    </Link>
+                                                <li className={styles.nav_dropdown}>
+                                                    <a className={isActive('/myprofile') || isActive('/templates')}>Profile & Templates</a>
+                                                    {renderSubMenu(subMenuProfileTemplates)}
                                                 </li>
-                                                <li>
-                                                    <Link href="/contacts">
-                                                        <a className={isActive('/contacts')}>Contacts</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/leaderboard">
-                                                        <a className={isActive('/leaderboard')}>Leaderboard</a>
-                                                    </Link>
+                                                <li className={styles.nav_dropdown}>
+                                                    <a className={isActive('/myqr') || isActive('/leaderboard')}>Analytics</a>
+                                                    {renderSubMenu(subMenuAnalytics)}
                                                 </li>
                                             </>
                                             :
