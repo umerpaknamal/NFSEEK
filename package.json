@@ -59,7 +59,8 @@
     "swiper": "^8.3.2",
     "typewriter-effect": "^2.19.0",
     "uuidv4": "^6.2.13",
-    "validator": "^13.7.0"
+    "validator": "^13.7.0",
+    "react-select": "^5.2.0"
   },
   "devDependencies": {
     "eslint": "8.17.0",
